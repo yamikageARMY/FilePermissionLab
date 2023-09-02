@@ -45,3 +45,36 @@ In the provided screenshot, the first two lines showcase the commands executed, 
 <br />
 
 
+<P align="center">
+<h2>Change file permission on a hidden file</h2>
+I actively engaged in a lab exercise where I focused on securing critical files. As part of the lab, I successfully implemented measures to protect the “project_x.txt” file, preventing unauthorized write access. By carefully managing permissions, I ensured that only the designated user and group retained read access, aligning with the principles of secure file management taught in the course. 
+
+The following code demonstrates how I used Linux commands to change the permissions:
+
+<img src="https://i.imgur.com/jr5Vl7R.png" height="70%" width="70%" alt="Disk Sanitiation Step"/>
+
+The screenshot captures the sequence of commands I executed, along with their corresponding outputs. By recognizing that “.project_x.txt” is a hidden file denoted by the preceding period, I proceeded to modify its permissions. Specifically, I revoked write permission for both the user and group, while granting read permissions exclusively to the group. To achieve this, I utilized the commands “u-w” to remove write permissions for the user, “g-w” to remove write permissions for the group, and “g+r” to add read permissions for the group. 
+<br />
+
+
+<p align="center">
+<h2>Change directory permissions</h2>
+I successfully enforced access control measures for the drafts directory, in accordance with my organization’s security requirements. Specifically, I restricted execute permissions to only the reseacher2 user, thereby preventing unauthorized access. By implementing these measures, I demonstrated my proficiency in access control to cybersecurity best practices.
+
+The following code demonstrates how I used Linux commands to change the permissions:
+
+<img src="https://i.imgur.com/SDd0juW.png" height="70%" width="70%" alt="Disk Sanitiation Step"/>
+
+I showcased the commands I executed and their corresponding output. Recognizing that the group had unnecessary execute permissions, I utilized the “chmod” command to revoke them. As for the reseacher2  user, who already possessed the required execute permissions, no further adjustments were necessary. 
+<br />
+
+<p align="center">
+<h2>Summary</h2>
+I successfully adjusted multiple file and directory permissions to meet the specified authorization level dictated by the exercise. The  initial step involved examining the permissions of the projects directory using the “ls -la” command, allowing me to make informed decisions. Subsequently, I employed the “chmod” command iteratively to modify permissions, ensuring strict adherence to the desired security requirements. This hand-on experience demonstrated my practical understanding of permission management and its significance in maintaining a secure computing environment.
+<br />
+
+
+
+
+
+
