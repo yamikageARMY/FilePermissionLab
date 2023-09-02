@@ -12,6 +12,7 @@ As an active participant in my Google Cybersecurity course, I successfully encou
 <p align="center">
 <h2>Check file and directory</h2>
 The following code demonstrates how I used Linux commands to determine the existing permissions set for a specific directory in the file system. 
+
 <img src="https://i.imgur.com/Pg7z3G4.png" height="70%" width="70%" alt="Disk Sanitiation Step"/>
 
 In the lab, I executed the “ls -la” command to obtain a detailed listing of the files in the projects directory, including hidden files. The resulting output displayed one directory named “drafts”, one hidden file named “.project_x.txt,” and five other project files. The 10-character string in the first column represents the permissions assigned to each file or directory. This exercise allowed me to gain insight into the existing permissions structure and better understand the access rights associated with the files within the projects directory. 
